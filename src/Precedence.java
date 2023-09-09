@@ -6,12 +6,12 @@ public class Precedence {
         ans = ++x*z/y; // 7
         System.out.println(ans);
         ans = x+y-z*x/x;
-        // approach - 1
         // z*x = 12
-        // 12/x = 4
-        // 4+x = 8
-        // 8-z = 5
+        // 12/x = 3
+        // 3+4 = 7
+        // 7-z = 4
         System.out.println(ans);
+
 
     }
 }
