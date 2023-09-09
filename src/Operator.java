@@ -1,16 +1,34 @@
-import java.util.Scanner;
 
 public class Operator {
 
     public static void main(String[] args)
     {
-        Scanner input  = new Scanner(System.in);
-        System.out.print("Enter your first name : ");
-        String fname = input.next();
-        System.out.print("Enter your last name : ");
-        String name = input.nextLine();
-        name = input.nextLine();
-        System.out.println(name);
+        // Types operator in Java
+
+        // 1. Unary Operator
+        // -> ++,--
+
+        // 2. Binary Operator
+
+        // -> 1. Aerithmatic Operator : Used to perform mathematical Operation.
+        //    -> (+,-,/,*,%)
+
+        // -> 2. Assignment Operator : Used to assign value to the variable.
+        //    -> (=,+=,-=,/=,*=,%=)
+
+        // -> 3. Relational Operator : Used to compare two or more values.
+        //    -> also used to create conditions in java.
+        //    -> (>,<,>=,<=,==)
+
+        // -> 4. Logical Operator : Used to connect two or more conditions.
+        //    -> (&&,||,!)
+
+        // -> 5. Bitwise Operator
+        //    -> 
+
+        // 3. Ternary Operator : Used to perform conditional task single line of code.
+        // -> (?  : )
+
     }
 
 
